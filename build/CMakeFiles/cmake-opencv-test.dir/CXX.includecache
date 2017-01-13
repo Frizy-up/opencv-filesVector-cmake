@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/frizy/Program/QtProject/opencv-filesVector-test/main.cpp
+iostream
+-
+vector
+-
+opencv2/core/core.hpp
+-
+opencv2/contrib/contrib.hpp
+-
+sstream
+-
+fstream
+-
+string
+-
+
